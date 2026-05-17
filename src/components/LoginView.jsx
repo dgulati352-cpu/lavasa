@@ -48,7 +48,7 @@ const LoginView = ({ onLogin }) => {
               <Utensils size={48} color="var(--accent-primary)" />
             </div>
           </motion.div>
-          <h2 style={{ fontSize: '2.25rem', fontWeight: 800, letterSpacing: '-0.04em', marginTop: '1.5rem' }}>Welcome to FlavorFusion</h2>
+          <h2 style={{ fontSize: '2.25rem', fontWeight: 800, letterSpacing: '-0.04em', marginTop: '1.5rem' }}>Welcome to Lavassaa</h2>
           <p style={{ fontSize: '1.1rem', marginTop: '0.5rem', color: 'var(--text-muted)' }}>Experience gourmet dining at your fingertips.</p>
         </div>
 
