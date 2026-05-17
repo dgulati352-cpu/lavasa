@@ -9,7 +9,8 @@ const firebaseConfig =  {
   storageBucket: "lavasa-52e19.firebasestorage.app",
   messagingSenderId: "487517193462",
   appId: "1:487517193462:web:7caddd9b4e0cec5a1658d7",
-  measurementId: "G-PRY4H1CGDV"
+  measurementId: "G-PRY4H1CGDV",
+  databaseURL: "https://lavasa-52e19-default-rtdb.firebaseio.com"
 };
 
 const app = initializeApp(firebaseConfig);
