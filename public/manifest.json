@@ -1,0 +1,20 @@
+{
+  "name": "FlavorFusion - Restaurant Ordering",
+  "short_name": "FlavorFusion",
+  "description": "Premium restaurant ordering app — browse the menu, customize portions, and place orders from your table.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f17",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle"],
+  "screenshots": []
+}
