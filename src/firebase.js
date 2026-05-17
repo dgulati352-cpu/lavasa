@@ -2,15 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
-const firebaseConfig =  {
-  apiKey: "AIzaSyBBbezOlYsEQD-1EQ7oxC1BlFREj-4JXHE",
-  authDomain: "lavasa-52e19.firebaseapp.com",
-  projectId: "lavasa-52e19",
-  storageBucket: "lavasa-52e19.firebasestorage.app",
-  messagingSenderId: "487517193462",
-  appId: "1:487517193462:web:7caddd9b4e0cec5a1658d7",
-  measurementId: "G-PRY4H1CGDV",
-  databaseURL: "https://lavasa-52e19-default-rtdb.firebaseio.com"
+const firebaseConfig = {
+  apiKey: "AIzaSyDPOCPfX1-tB0BfSfku8Oer4tY9foqGE8s",
+  authDomain: "hotel-frontend-d7ed9.firebaseapp.com",
+  projectId: "hotel-frontend-d7ed9",
+  storageBucket: "hotel-frontend-d7ed9.appspot.com",
+  messagingSenderId: "367253457199",
+  appId: "1:367253457199:web:df21590fc3673ab2c40c83",
+  databaseURL: "https://hotel-frontend-d7ed9-default-rtdb.asia-southeast1.firebasedatabase.app"
 };
 
 const app = initializeApp(firebaseConfig);
