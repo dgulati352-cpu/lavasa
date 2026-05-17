@@ -200,8 +200,7 @@ function App() {
       <div className="app-container">
         <header>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <Utensils size={32} color="var(--accent-primary)" />
-            <h1 style={{ margin: 0 }}>Lavassaa</h1>
+            <img src="/logo.svg" alt="Lavassaa Logo" style={{ height: '48px', width: 'auto', filter: 'drop-shadow(0 2px 6px rgba(212,175,55,0.15))' }} />
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             {deferredPrompt && (
@@ -235,8 +234,7 @@ function App() {
     <div className="app-container">
       <header>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <Utensils size={32} color="var(--accent-primary)" />
-          <h1 style={{ margin: 0 }}>Lavassaa</h1>
+          <img src="/logo.svg" alt="Lavassaa Logo" style={{ height: '48px', width: 'auto', filter: 'drop-shadow(0 2px 6px rgba(212,175,55,0.15))' }} />
         </div>
         
         <div className="tabs">
@@ -332,7 +330,7 @@ function App() {
         alignItems: 'center'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <Utensils size={14} />
+          <img src="/logo.svg" alt="Lavassaa Logo" style={{ height: '20px', width: 'auto' }} />
           <span>Lavassaa Premium &copy; 2026</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--bg-secondary)', padding: '4px 10px', borderRadius: '12px' }}>

@@ -43,13 +43,11 @@ const LoginView = ({ onLogin }) => {
             className="login-logo"
             animate={{ y: [0, -10, 0] }}
             transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+            style={{ display: 'flex', justifyContent: 'center' }}
           >
-            <div style={{ background: 'var(--accent-primary-glow)', padding: '1.25rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <Utensils size={48} color="var(--accent-primary)" />
-            </div>
+            <img src="/logo.svg" alt="Lavassaa Logo" style={{ height: '130px', width: 'auto', filter: 'drop-shadow(0 4px 12px rgba(212,175,55,0.3))' }} />
           </motion.div>
-          <h2 style={{ fontSize: '2.25rem', fontWeight: 800, letterSpacing: '-0.04em', marginTop: '1.5rem' }}>Welcome to Lavassaa</h2>
-          <p style={{ fontSize: '1.1rem', marginTop: '0.5rem', color: 'var(--text-muted)' }}>Experience gourmet dining at your fingertips.</p>
+          <p style={{ fontSize: '1.1rem', marginTop: '1.25rem', color: 'var(--text-muted)' }}>Experience gourmet dining at your fingertips.</p>
         </div>
 
         {error && (

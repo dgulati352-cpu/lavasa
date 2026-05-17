@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Styled circular emblem -->
+  <circle cx="50" cy="38" r="24" fill="none" stroke="#d4af37" stroke-width="2" />
+  
+  <!-- Cutlery silhouettes in Gold -->
+  <g fill="#d4af37">
+    <!-- Fork (Left) -->
+    <path d="M 40 24 h 1.5 v 8 c 0 1.5 -0.5 2 -1.5 2 h -0.5 c -1 0 -1.5 -0.5 -1.5 -2 v -8 H 39.5 v 8 c 0 2 1 3 2.5 3 H 42 c 1.5 0 2.5 -1 2.5 -3 v -8 h 1 v 8 c 0 3 -2 4.5 -4 4.5 v 8.5 c 0 0.5 0.2 0.8 0.5 0.8 h 0.5 v 1 H 39 v -1 h 0.5 c 0.3 0 0.5 -0.3 0.5 -0.8 v -8.5 c -2 0 -4 -1.5 -4 -4.5 z" />
+    
+    <!-- Knife (Middle) -->
+    <path d="M 49 20 c 0 0 2 2 2 5 v 10 c 0 1.5 -0.5 2.5 -1.5 2.5 h -0.5 c -1 0 -1.5 -1 -1.5 -2.5 V 20 Z M 49.2 38 v 10 c 0 0.5 0.2 0.8 0.5 0.8 h 0.6 v 1 H 48.3 v -1 h 0.6 c 0.3 0 0.5 -0.3 0.5 -0.8 V 38 Z" />
+    
+    <!-- Spoon (Right) -->
+    <path d="M 60 21 c 2.5 0 4 2.5 4 5.5 s -1.5 6 -4 6 s -4 -3 -4 -6 s 1.5 -5.5 4 -5.5 Z M 60 33 c 0 1 -0.5 2 -1.5 2 v 13 c 0 0.5 0.2 0.8 0.5 0.8 h 0.5 v 1 H 58 v -1 h 0.5 c 0.3 0 0.5 -0.3 0.5 -0.8 V 35 c -1 0 -1.5 -1 -1.5 -2 Z" />
+  </g>
+
+  <!-- Script Branding Text -->
+  <text x="50" y="82" font-family="'Great Vibes', 'Playball', 'Alex Brush', 'Brush Script MT', cursive" font-size="16" font-weight="bold" fill="#d4af37" text-anchor="middle" letter-spacing="0.5">Lavassaa</text>
+</svg>
